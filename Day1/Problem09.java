@@ -1,6 +1,6 @@
 package Day1;
 
-public class Problem11 {
+public class Problem9 {
     public static void main(String[] args) {
         int a =55;
         if(a%5==0||a%11==0){
