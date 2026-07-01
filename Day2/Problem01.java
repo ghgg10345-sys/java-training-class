@@ -2,10 +2,9 @@ package Day2;
 
 public class Problem1 {
     public static void main(String[] args) {
-        
-        for(int i=1;i<=5;i++){
-            System.out.println(i);
-        }
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();
+        System.out.println("Name: " + name);
     }
-    
 }
