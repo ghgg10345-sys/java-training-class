@@ -1,6 +1,6 @@
 package Day1;
 
-public class Problem8 {
+public class Problem7 {
     public static void main(String[] args) {
         int year=2024;
         if(year%4==0){
