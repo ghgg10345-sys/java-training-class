@@ -2,14 +2,9 @@ package Day1;
 
 public class Problem10 {
     public static void main(String[] args) {
-        char ch='a';
-        if(ch=='a' || ch=='e'|| ch=='i' || ch=='o' || ch=='u'){
-            System.out.println("It is vowel");
-        }
-        else{
-            System.out.println("It is consonant");
-        }
-        
+        int n = 6;
+        int square = n * n;
+
+        System.out.println("Square = " + square);
     }
-    
 }
