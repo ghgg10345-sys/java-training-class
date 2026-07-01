@@ -2,15 +2,11 @@ package Day2;
 
 public class Problem5 {
     public static void main(String[] args) {
-        String name="kavi";
-        int age=19;
-        int rollno=24;
-
-        System.out.println(name);
-        System.out.println(age);
-        System.out.println(rollno);
-        
-
-        
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter first number: ");
+        int a = sc.nextInt();
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+        System.out.println("Difference = " + (a - b));
     }
 }
