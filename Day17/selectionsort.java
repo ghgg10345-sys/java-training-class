@@ -9,9 +9,7 @@ public class selectionsort {
                 if (arr[j] > arr[maxIndex]) {
                     maxIndex = j;
                 }
-
             }
-
             int temp = arr[i];
             arr[i] = arr[maxIndex];
             arr[maxIndex] = temp;
